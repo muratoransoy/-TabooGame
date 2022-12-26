@@ -1,0 +1,489 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace pasaPorala
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       static int soruno = 0, dogru = 0, yanlıs = 0;
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            cevap = textBox1.Text.ToUpper();
+            if (e.KeyCode == Keys.Enter)
+            {
+                textBox1.Enabled = false;
+                switch (soruno)
+                {
+                    case 1:
+                        if (cevap == "ANAKART") 
+                        {
+                            buttona.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttona.BackColor= Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+                        case 2:
+                        if (cevap == "BACKSPACE")
+                        {
+                            buttonb.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonb.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 3:
+                        if (cevap == "CPU")
+                        {
+                            buttonc.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonc.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+
+
+                    case 4:
+                        if (cevap == "DPI")
+                        {
+                            buttond.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttond.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 5:
+                        if (cevap == "EDU")
+                        {
+                            buttone.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttone.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+                    case 6:
+                        if (cevap == "FTP")
+                        {
+                            buttonf.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonf.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 7:
+                        if (cevap == "GHZ")
+                        {
+                            buttong.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttong.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 8:
+                        if (cevap == "HDMI")
+                        {
+                            buttonh.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonh.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 9:
+                        if (cevap == "İNTERNET")
+                        {
+                            buttoni.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttoni.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 10:
+                        if (cevap == "JPEG")
+                        {
+                            buttonj.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonj.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 11:
+                        if (cevap == "KAYDETME")
+                        {
+                            buttonk.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonk.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 12:
+                        if (cevap == "LPT")
+                        {
+                            buttonl.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonl.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 13:
+                        if (cevap == "MOUSE")
+                        {
+                            buttonm.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonm.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 14:
+                        if (cevap == "NUMLOCK")
+                        {
+                            buttonn.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonn.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 15:
+                        if (cevap == "OOP")
+                        {
+                            buttono.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttono.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 16:
+                        if (cevap == "PİKSEL")
+                        {
+                            buttonp.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonp.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 17:
+                        if (cevap == "RAM")
+                        {
+                            buttonr.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonr.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 18:
+                        if (cevap == "SSD")
+                        {
+                            buttons.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttons.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 19:
+                        if (cevap == "TAB")
+                        {
+                            buttont.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttont.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 20:
+                        if (cevap == "USB")
+                        {
+                            buttonu.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonu.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 21:
+                        if (cevap == "VERİTABANI")
+                        {
+                            buttonv.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttonv.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    case 22:
+                        if (cevap == "YAZILIM")
+                        {
+                            buttony.BackColor = Color.Green;
+                            dogruarttir();
+                        }
+                        else
+                        {
+                            buttony.BackColor = Color.Red;
+                            yanlisarttir();
+                        }
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+        }
+        void dogruarttir()
+        {
+            dogru++;
+            label3.Text = dogru.ToString();
+        }
+        void yanlisarttir()
+        {
+            yanlıs++;
+            label4.Text = yanlıs.ToString();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        string cevap = "";
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            soruno++;
+            linkLabel1.Text = "Sonraki";
+            this.Text = soruno.ToString();
+            textBox1.Clear();
+            textBox1.Enabled = true;
+            if(soruno == 1)
+            {
+                richTextBox1.Text = "Donanım üniteleri arasında veri iletişiminin yapılmasını sağlayan birime verilen ad hangisidir?";
+                buttona.BackColor = Color.Yellow;
+                harf.Text = buttona.Text;
+            }else if(soruno == 2)
+            {
+                richTextBox1.Text = " Yanlış yazılan bir komut sola doğru hangi tuşla silinir?";
+                buttonb.BackColor = Color.Yellow;
+                harf.Text = buttonb.Text;
+            }
+            else if (soruno == 3)
+            {
+                richTextBox1.Text = "Giriş ünitesinden girilen bilgileri isteyen ve sonuçları çıkış ünitesine gönderen bölüm hangisidir?";
+                buttonc.BackColor = Color.Yellow;
+                harf.Text = buttonc.Text;
+            }
+            else if (soruno == 4)
+            {
+                richTextBox1.Text = "Yazıcıların  ve  tarayıcıların  çözünürlüğünü  ölçmek  için kullanılan ölçü birimidir. Değeri ne kadar yüksek olursa, tarama ya da baskı kalitesi de o kadar yüksek olur.";
+                buttond.BackColor = Color.Yellow;
+                harf.Text = buttond.Text;
+            }
+            else if (soruno == 5)
+            {
+                richTextBox1.Text = "İnternet adreslerinde eğitim kuruluşları için hangi kısalma kullanılır?";
+                buttone.BackColor = Color.Yellow;
+                harf.Text = buttone.Text;
+            }
+            else if (soruno == 6)
+            {
+                richTextBox1.Text = "internetin bulunması ile birlikte geliştirilmeye başlayan ilk internet protokollerinden birisidir";
+                buttonf.BackColor = Color.Yellow;
+                harf.Text = buttonf.Text;
+            }
+            else if (soruno == 7)
+            {
+                richTextBox1.Text = "Aşağıdakilerden hangisi CPU’ nun hız birimidir? ";
+                buttong.BackColor = Color.Yellow;
+                harf.Text = buttong.Text;
+            }
+            else if (soruno == 8)
+            {
+                richTextBox1.Text = "Dijital ses ve görüntüyü birlikte aktaran birim nedir? ";
+                buttonh.BackColor = Color.Yellow;
+                harf.Text = buttonh.Text;
+            }
+            else if (soruno == 9)
+            {
+                richTextBox1.Text = "Dünyadaki en geniş ağ hangisidir?";
+                buttoni.BackColor = Color.Yellow;
+                harf.Text = buttoni.Text;
+            }
+            else if (soruno == 10)
+            {
+                richTextBox1.Text = "Joint Photographic Experts Group tarafından standartlaştırılmış bir sayısal görüntü kodlama biçimi nedir";
+                buttonj.BackColor = Color.Yellow;
+                harf.Text = buttonj.Text;
+            }
+            else if (soruno == 11)
+            {
+                richTextBox1.Text = " Ctrl+S kısayol tuşları ile gerçekleştirilen işlem aşağıdakilerden hangisidir? ";
+                buttonk.BackColor = Color.Yellow;
+                harf.Text = buttonk.Text;
+            }
+            else if (soruno == 12)
+            {
+                richTextBox1.Text = "Paralel port veya paralel kapı, bilgisayarın kasasının arkasında bulunan 25 pinlik D şeklindeki konnektör girişine ne ad verilir?";
+                buttonl.BackColor = Color.Yellow;
+                harf.Text = buttonl.Text;
+            }
+            else if (soruno == 13)
+            {
+                richTextBox1.Text = "İşaretleme yolu ile verileri girmek hangi üniteyle gerçekleşir?";
+                buttonm.BackColor = Color.Yellow;
+                harf.Text = buttonm.Text;
+            }
+            else if (soruno == 14)
+            {
+                richTextBox1.Text = "Caps Lock ve Scroll Lock gibi bir kilit tuşudur. Ana klavyenin sağ tarafında bulunan sayısal tuş takımının işlevini etkileren tuun adı nedir?";
+                buttonn.BackColor = Color.Yellow;
+                harf.Text = buttonn.Text;
+            }
+            else if (soruno == 15)
+            {
+                richTextBox1.Text = "yazılım tasarımını işlevler ve mantık yerine, veri veya nesneler etrafında düzenleyen bir programlama dili modeli nedir?";
+                buttono.BackColor = Color.Yellow;
+                harf.Text = buttono.Text;
+            }
+            else if (soruno == 16)
+            {
+                richTextBox1.Text = "dijital göstergelerde görüntünün elde edilmesini sağlayan ve kontrol edilebilen en küçük birimdir";
+                buttonp.BackColor = Color.Yellow;
+                harf.Text = buttonp.Text;
+            }
+            else if (soruno == 17)
+            {
+                richTextBox1.Text = "Rastgele erişimli hafıza veya rastgele erişimli bellek mikroişlemcili sistemlerde kullanılan ve genellikle çalışma verilerini ve makine kodunu depolamak için kullanılan herhangi bir sırada okunabilen ve değiştirilebilen bir tür geçici veri deposudur";
+                buttonr.BackColor = Color.Yellow;
+                harf.Text = buttonr.Text;
+            }
+            else if (soruno == 18)
+            {
+                richTextBox1.Text = "Solid-State Drive (Katı Hal Sürücü) olan bilgisayar bileşen parçası nedir?";
+                buttons.BackColor = Color.Yellow;
+                harf.Text = buttons.Text;
+            }
+            else if (soruno == 19)
+            {
+                richTextBox1.Text = "Fare kullanmaksızın yazma imlecini kolayca hareket ettirmemize yardımcı olan klavye tuşu.";
+                buttont.BackColor = Color.Yellow;
+                harf.Text = buttont.Text;
+            }
+            else if (soruno == 20)
+            {
+                richTextBox1.Text = "1.1, 2.0 iken şimdi artık 3.0 üretilmeye başlanmıştır, arayüzü ile entegre edilmiş, kapasiteleri 1 TB'a kadar ulaşabilen, küçük, hafif, çalışma esnasında sökülüp takılabilir NAND-tipinde veri depolama aygıttır.";
+                buttonu.BackColor = Color.Yellow;
+                harf.Text = buttonu.Text;
+            }
+            else if (soruno == 21)
+            {
+                richTextBox1.Text = "Genellikle bir bilgisayar sisteminde elektronik olarak depolanan yapılandırılmış bilgi veya veriden oluşan düzenli bir koleksiyondur. ";
+                buttonv.BackColor = Color.Yellow;
+                harf.Text = buttonv.Text;
+            }
+            else if (soruno == 22)
+            {
+                richTextBox1.Text = "değişik ve çeşitli görevler yapma amaçlı tasarlanmış elektronik aygıtların birbirleriyle haberleşebilmesini ve uyumunu sağlayarak görevlerini ya da kullanılabilirliklerini geliştirmeye yarayan makine komutlarıdır";
+                buttony.BackColor = Color.Yellow;
+                harf.Text = buttony.Text;
+            }
+         
+        }
+    }
+}

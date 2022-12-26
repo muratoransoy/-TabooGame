@@ -1,0 +1,11 @@
+C:\Users\murat\Desktop\ERP-Ders\ödev\pasaPorala\pasaPorala\bin\Debug\pasaPorala.exe.config
+C:\Users\murat\Desktop\ERP-Ders\ödev\pasaPorala\pasaPorala\bin\Debug\pasaPorala.exe
+C:\Users\murat\Desktop\ERP-Ders\ödev\pasaPorala\pasaPorala\bin\Debug\pasaPorala.pdb
+C:\Users\murat\Desktop\ERP-Ders\ödev\pasaPorala\pasaPorala\obj\Debug\pasaPorala.csproj.AssemblyReference.cache
+C:\Users\murat\Desktop\ERP-Ders\ödev\pasaPorala\pasaPorala\obj\Debug\pasaPorala.csproj.SuggestedBindingRedirects.cache
+C:\Users\murat\Desktop\ERP-Ders\ödev\pasaPorala\pasaPorala\obj\Debug\pasaPorala.Form1.resources
+C:\Users\murat\Desktop\ERP-Ders\ödev\pasaPorala\pasaPorala\obj\Debug\pasaPorala.Properties.Resources.resources
+C:\Users\murat\Desktop\ERP-Ders\ödev\pasaPorala\pasaPorala\obj\Debug\pasaPorala.csproj.GenerateResource.cache
+C:\Users\murat\Desktop\ERP-Ders\ödev\pasaPorala\pasaPorala\obj\Debug\pasaPorala.csproj.CoreCompileInputs.cache
+C:\Users\murat\Desktop\ERP-Ders\ödev\pasaPorala\pasaPorala\obj\Debug\pasaPorala.exe
+C:\Users\murat\Desktop\ERP-Ders\ödev\pasaPorala\pasaPorala\obj\Debug\pasaPorala.pdb
